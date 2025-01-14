@@ -1,0 +1,82 @@
+/* Contact Section */
+body{
+    background-color: rgb(112, 112, 205);
+}
+.contact-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    color: #004080;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-out;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeUp 1.5s ease-out;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #004080;
+}
+
+.contact-form .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    background: #004080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form .btn:hover {
+    background: #003366;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 600px) {
+    .contact-form {
+        padding: 15px;
+    }
+}
